@@ -9,7 +9,6 @@ const poem = {
 };
 
 export default function Poem() {
-  const x = 5;
   return (
     <article>
       {poem.lines.map((line, index) => {
